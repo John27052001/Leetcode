@@ -1,6 +1,4 @@
 from queue import PriorityQueue
-
-
 class Solution:
   def mergeKLists(self, lists: list[ListNode]) -> ListNode:
     dummy = ListNode(0)
